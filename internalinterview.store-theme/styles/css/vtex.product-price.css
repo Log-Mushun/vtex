@@ -1,5 +1,5 @@
 .listPrice {
-  color: #727273;
+  color: #1A3311;
   margin-bottom: .25rem;
   font-size: 1rem;
 }
@@ -15,7 +15,7 @@
 }
 
 .installments {
-  color: #727273;
+  color: #1A3311;
   margin-bottom: 1rem;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .savings--summaryPercentage {
-  background: #0f3e99;
+  background: #65865A;
   border-radius: 1000px;
   align-items: center;
   display: flex;
