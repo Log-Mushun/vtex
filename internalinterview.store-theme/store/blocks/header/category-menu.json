@@ -4,86 +4,86 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-market",
       "menu-item#category-home",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-market": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-market",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/mercado-m/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Mercado",
+        "text": "Mercado"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-market"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-market": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-market"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-market": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-market-clothing",
+      "menu-item#category-market-accessories",
+      "menu-item#category-market-eyeglasses"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-market-clothing": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-market-clothing",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/market---accessories/clothing/",
         "noFollow": false,
         "tagTitle": "Clothing",
         "text": "Clothing"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-market-accessories": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-market-accessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/market---accessories/accessories/",
         "noFollow": false,
         "tagTitle": "Accessories",
         "text": "Accessories"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-market-eyeglasses": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-market-eyeglasses",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/market---accessories/eyeglasses/",
         "noFollow": false,
         "tagTitle": "Eyeglasses",
         "text": "Eyeglasses"
@@ -100,8 +100,8 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Vinos & Licores",
+        "text": "Vinos & Licores"
       }
     }
   },
@@ -115,8 +115,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Más",
+        "text": "Más"
       }
     },
     "blocks": [

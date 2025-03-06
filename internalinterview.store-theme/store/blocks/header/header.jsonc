@@ -66,9 +66,11 @@
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "width": "20%"
     },
-    "children": ["logo#desktop"]
+    "children": ["image#logo-desktop"]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -76,13 +78,15 @@
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
-  "logo#desktop": {
+  "image#logo-desktop": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://raw.githubusercontent.com/Log-Mushun/vtex/refs/heads/main/internalinterview.store-theme/assets/midori-logo.jpg?token=GHSAT0AAAAAAC7P5VZSQGQ7GXKTOQ6R663YZ6GQGLQ",
-      "width": "180",
-      "height": "50"
+      "src": "https://raw.githubusercontent.com/log-Mushun/vtex/main/internalinterview.store-theme/assets/midori-logo.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "header-logo",
+      "width": "180px",
+      "height": "50px"
     }
   },
   "header-layout.mobile": {
@@ -112,7 +116,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-market",
       "menu-item#category-home",
       "menu-item#more"
     ],
@@ -125,7 +129,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://raw.githubusercontent.com/log-Mushun/vtex/main/internalinterview.store-theme/assets/midori-logo.jpg",
       "width": "77.5",
       "height": "27.5"
     }
