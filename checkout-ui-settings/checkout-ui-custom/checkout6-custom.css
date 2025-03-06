@@ -1,0 +1,46 @@
+/* Content copied from "checkout5-custom.css" at 2019-03-01T05:12:59.334Z */
+
+/* /files/checkout5-custom.css */
+
+/* Displays the option to enter a foreign document */
+.document-box { display: block; }
+
+/* Displays the option to enter an international phone */
+.phone-box { display: block; }
+
+/* Oculta el logo usando el selector más específico de VTEX checkout */
+.vtex-checkout__logo {
+    display: none !important;
+}
+
+/* Ocultar solo el logo de VTEX en el header */
+.main-header img[alt*="VTEXGrocery"],
+.main-header img[src*="vtexgrocery"],
+.main-header .vtexgrocery-logo {
+  display: none !important;
+}
+
+/* Asegurar que nuestro nuevo logo se muestre */
+.logo-link img {
+  display: block;
+  max-height: 50px;
+  width: auto;
+}
+
+/* Insertar nuevo logo en el header */
+.main-header::before {
+  content: '';
+  display: block;
+  background-image: url('https://raw.githubusercontent.com/log-Mushun/vtex/main/internalinterview.store-theme/assets/midori-logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 180px;
+  margin: 10px 0;
+}
+
+
+.main-header {
+  background-color: #e9e5d9 !important;
+}
